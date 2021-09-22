@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>#vrp</title>
+	<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+	<style>
+		<style>
+		#index {
+		 position: absolute;
+	   left: 50%;
+	   top: 50%
+		}
+
+		.spawnNow {
+			color: #fff;
+			width: 200px;
+			list-style: none;
+			user-select: none;
+			padding: 8px 50px;
+			text-align: center;
+			border-radius: 10px;
+			margin-bottom: 10px;
+			transition: width 0.5s;
+			background: #2ca823;
+			font-family: 'Roboto',sans-serif;
+		}
+
+		.spawnNow:hover {
+			background: #176312;
+		}
+
+		.spawn {
+			color: #fff;
+			width: 200px;
+			list-style: none;
+			user-select: none;
+			padding: 8px 25px;
+			text-align: center;
+			border-radius: 3px;
+			margin-bottom: 10px;
+			transition: width 0.5s;
+			background: rgba(0,0,0,0.5);
+			font-family: 'Roboto',sans-serif;
+		}
+
+		.spawn:hover {
+			background: rgba(0,0,0,0.7);
+		}
+	</style>
+	</style>
+</head>
+<body>
+	<div id="index">
+		<ul>
+			<li class="spawnNow" data-spawn="spawn">Última Localização</li>
+			<!-- <li class="spawn" data-spawn="davis">Mega Mall</li> -->
+			<!-- <li class="spawn" data-spawn="hawick">Vila do Chaves</li> -->
+			<!-- <li class="spawn" data-spawn="west">Garagem do Lago</li> -->
+			<!-- <li class="spawn" data-spawn="little">Ponto de Onibus</li> -->
+			<!-- <li class="spawn" data-spawn="avenue">Garagem Praca</li> -->
+			<!-- <li class="spawn" data-spawn="goma">Praia</li> -->
+			<!-- <li class="spawn" data-spawn="delperro">Garagem Praia</li> -->
+			<!-- <li class="spawn" data-spawn="route68">Route 68</li> -->
+			<!-- <li class="spawn" data-spawn="procopio">Garagem norte</li> -->
+		</ul>
+	</div>
+	<script
+  src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+
+	<script>
+		$(() => {
+			window.addEventListener('message',(event) => {
+				if (event.data.display) {
+					$('#index').show();
+				} else {
+					$('#index').hide();
+				}
+			})
+
+			$('li').click(function(){
+				$.post('http://vrp_login/spawn',JSON.stringify({ choice: $(this).data('spawn') }));
+			});
+		})
+	</script>
+</body>
+</html>

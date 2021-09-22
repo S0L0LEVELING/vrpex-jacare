@@ -1,0 +1,99 @@
+RegisterNUICallback("data_status", function(data)
+    if soundInfo[data.id] ~= nil then
+        if data.type == "finished" then
+            soundInfo[data.id].playing = false
+            TriggerEvent("tota_core:songStopPlaying", data.id)
+        end
+        if data.type == "maxDuration" then
+            soundInfo[data.id].maxDuration = data.time
+        end
+    end
+end)
+
+RegisterNUICallback("events", function(data)
+    local id = data.id
+    local type = data.type
+    if type == "onPlay" then
+        if globalOptionsCache[id] ~= nil and globalOptionsCache[id].onPlayStart ~= nil then
+            globalOptionsCache[id].onPlayStart(getInfo(id))
+        end
+    end
+    if type == "onEnd" then
+        if globalOptionsCache[id] ~= nil and globalOptionsCache[id].onPlayEnd ~= nil then
+            globalOptionsCache[id].onPlayEnd(getInfo(id))
+        end
+
+    end
+    if type == "onLoading" then
+        if globalOptionsCache[id] ~= nil and globalOptionsCache[id].onLoading ~= nil then
+            globalOptionsCache[id].onLoading(getInfo(id))
+        end
+    end
+end)
+
+RegisterNetEvent("tota_core:stateSound")
+AddEventHandler("tota_core:stateSound", function(state, data)
+    local soundId = data.soundId
+
+    if state == "timestamp" then
+        if soundExists(soundId) then
+            setTimeStamp(soundId, data.time)
+        end
+    end
+
+    if state == "texttospeech" then
+        TextToSpeech(soundId, data.lang, data.url, data.volume, data.loop or false)
+    end
+
+    if state == "texttospeechpos" then
+        TextToSpeechPos(soundId, data.lang, data.url, data.volume, data.position, data.loop or false)
+    end
+
+    if state == "play" then
+        PlayUrl(soundId, data.url, data.volume, data.loop or false)
+    end
+
+    if state == "playpos" then
+        PlayUrlPos(soundId, data.url, data.volume, data.position, data.loop or false)
+    end
+
+    if state == "position" then
+        if soundExists(soundId) then
+            Position(soundId, data.position)
+        end
+    end
+
+    if state == "distance" then
+        if soundExists(soundId) then
+            Distance(soundId, data.distance)
+        end
+    end
+
+    if state == "destroy" then
+        if soundExists(soundId) then
+            Destroy(soundId)
+        end
+    end
+
+    if state == "pause" then
+        if soundExists(soundId) then
+            Pause(soundId)
+        end
+    end
+
+    if state == "resume" then
+        if soundExists(soundId) then
+            Resume(soundId)
+        end
+    end
+
+    if state == "volume" then
+        if soundExists(soundId) then
+            if isDynamic(soundId) then
+                setVolumeMax(soundId, data.volume)
+            else
+                setVolume(soundId, data.volume)
+            end
+        end
+    end
+end)

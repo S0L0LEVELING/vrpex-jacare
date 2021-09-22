@@ -1,0 +1,1823 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TattooShopItemArray>
+  <TattooShopItems>
+	<!-- Male Vinewood hair -->
+	<Item>
+	  <id value="5000"/>
+	  <cost value="0"/>
+	  <textLabel />
+	  <collection>mpVinewood_overlays</collection>
+	  <preset>MP_Vinewood_Hair_M_000_M</preset>
+	  <zone>PDZ_HEAD</zone>
+	  <eFacing>TATTOO_FRONT</eFacing>
+	  <updateGroup>hairOverlay</updateGroup>
+	  <eFaction>TATTOO_MP_FM</eFaction>
+	  <lockHash />
+	</Item>
+	
+	<!-- Male Vinewood tattoos -->
+	<Item>
+	  <id value="5001"/>
+	  <cost value="696969"/>
+	  <textLabel>TAT_VW_000</textLabel>
+	  <collection>mpVinewood_overlays</collection>
+	  <preset>MP_Vinewood_Tat_000_M</preset>
+	  <zone>PDZ_TORSO</zone>
+	  <eFacing>TATTOO_FRONT</eFacing>
+	  <updateGroup>CHEST_FULL</updateGroup>
+	  <eFaction>TATTOO_MP_FM</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="5002"/>
+	  <cost value="696969"/>
+	  <textLabel>TAT_VW_001</textLabel>
+	  <collection>mpVinewood_overlays</collection>
+	  <preset>MP_Vinewood_Tat_001_M</preset>
+	  <zone>PDZ_TORSO</zone>
+	  <eFacing>TATTOO_BACK</eFacing>
+	  <updateGroup>BACK_FULL_SHORT</updateGroup>
+	  <eFaction>TATTOO_MP_FM</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="5003"/>
+	  <cost value="696969"/>
+	  <textLabel>TAT_VW_002</textLabel>
+	  <collection>mpVinewood_overlays</collection>
+	  <preset>MP_Vinewood_Tat_002_M</preset>
+	  <zone>PDZ_LEFT_ARM</zone>
+	  <eFacing>TATTOO_LEFT</eFacing>
+	  <updateGroup>ARM_LEFT_FULL_SLEEVE</updateGroup>
+	  <eFaction>TATTOO_MP_FM</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="5004"/>
+	  <cost value="696969"/>
+	  <textLabel>TAT_VW_003</textLabel>
+	  <collection>mpVinewood_overlays</collection>
+	  <preset>MP_Vinewood_Tat_003_M</preset>
+	  <zone>PDZ_TORSO</zone>
+	  <eFacing>TATTOO_FRONT</eFacing>
+	  <updateGroup>CHEST_RIGHT</updateGroup>
+	  <eFaction>TATTOO_MP_FM</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="5005"/>
+	  <cost value="696969"/>
+	  <textLabel>TAT_VW_004</textLabel>
+	  <collection>mpVinewood_overlays</collection>
+	  <preset>MP_Vinewood_Tat_004_M</preset>
+	  <zone>PDZ_RIGHT_ARM</zone>
+	  <eFacing>TATTOO_RIGHT</eFacing>
+	  <updateGroup>ARM_RIGHT_FULL_SLEEVE</updateGroup>
+	  <eFaction>TATTOO_MP_FM</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="5006"/>
+	  <cost value="696969"/>
+	  <textLabel>TAT_VW_005</textLabel>
+	  <collection>mpVinewood_overlays</collection>
+	  <preset>MP_Vinewood_Tat_005_M</preset>
+	  <zone>PDZ_LEFT_ARM</zone>
+	  <eFacing>TATTOO_LEFT</eFacing>
+	  <updateGroup>ARM_LEFT_FULL_SLEEVE</updateGroup>
+	  <eFaction>TATTOO_MP_FM</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="5007"/>
+	  <cost value="696969"/>
+	  <textLabel>TAT_VW_006</textLabel>
+	  <collection>mpVinewood_overlays</collection>
+	  <preset>MP_Vinewood_Tat_006_M</preset>
+	  <zone>PDZ_TORSO</zone>
+	  <eFacing>TATTOO_BACK</eFacing>
+	  <updateGroup>BACK_FULL_SHORT</updateGroup>
+	  <eFaction>TATTOO_MP_FM</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="5008"/>
+	  <cost value="696969"/>
+	  <textLabel>TAT_VW_007</textLabel>
+	  <collection>mpVinewood_overlays</collection>
+	  <preset>MP_Vinewood_Tat_007_M</preset>
+	  <zone>PDZ_TORSO</zone>
+	  <eFacing>TATTOO_BACK</eFacing>
+	  <updateGroup>BACK_FULL_SHORT</updateGroup>
+	  <eFaction>TATTOO_MP_FM</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="5009"/>
+	  <cost value="696969"/>
+	  <textLabel>TAT_VW_008</textLabel>
+	  <collection>mpVinewood_overlays</collection>
+	  <preset>MP_Vinewood_Tat_008_M</preset>
+	  <zone>PDZ_TORSO</zone>
+	  <eFacing>TATTOO_BACK</eFacing>
+	  <updateGroup>BACK_FULL</updateGroup>
+	  <eFaction>TATTOO_MP_FM</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="5010"/>
+	  <cost value="696969"/>
+	  <textLabel>TAT_VW_009</textLabel>
+	  <collection>mpVinewood_overlays</collection>
+	  <preset>MP_Vinewood_Tat_009_M</preset>
+	  <zone>PDZ_TORSO</zone>
+	  <eFacing>TATTOO_BACK</eFacing>
+	  <updateGroup>BACK_FULL</updateGroup>
+	  <eFaction>TATTOO_MP_FM</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="5011"/>
+	  <cost value="696969"/>
+	  <textLabel>TAT_VW_010</textLabel>
+	  <collection>mpVinewood_overlays</collection>
+	  <preset>MP_Vinewood_Tat_010_M</preset>
+	  <zone>PDZ_TORSO</zone>
+	  <eFacing>TATTOO_BACK</eFacing>
+	  <updateGroup>BACK_FULL</updateGroup>
+	  <eFaction>TATTOO_MP_FM</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="5012"/>
+	  <cost value="696969"/>
+	  <textLabel>TAT_VW_011</textLabel>
+	  <collection>mpVinewood_overlays</collection>
+	  <preset>MP_Vinewood_Tat_011_M</preset>
+	  <zone>PDZ_TORSO</zone>
+	  <eFacing>TATTOO_BACK</eFacing>
+	  <updateGroup>BACK_FULL</updateGroup>
+	  <eFaction>TATTOO_MP_FM</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="5013"/>
+	  <cost value="696969"/>
+	  <textLabel>TAT_VW_012</textLabel>
+	  <collection>mpVinewood_overlays</collection>
+	  <preset>MP_Vinewood_Tat_012_M</preset>
+	  <zone>PDZ_TORSO</zone>
+	  <eFacing>TATTOO_FRONT</eFacing>
+	  <updateGroup>STOMACH_FULL</updateGroup>
+	  <eFaction>TATTOO_MP_FM</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="5014"/>
+	  <cost value="696969"/>
+	  <textLabel>TAT_VW_013</textLabel>
+	  <collection>mpVinewood_overlays</collection>
+	  <preset>MP_Vinewood_Tat_013_M</preset>
+	  <zone>PDZ_LEFT_LEG</zone>
+	  <eFacing>TATTOO_FRONT</eFacing>
+	  <updateGroup>LEG_LEFT_LOWER_FRONT</updateGroup>
+	  <eFaction>TATTOO_MP_FM</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="5015"/>
+	  <cost value="696969"/>
+	  <textLabel>TAT_VW_014</textLabel>
+	  <collection>mpVinewood_overlays</collection>
+	  <preset>MP_Vinewood_Tat_014_M</preset>
+	  <zone>PDZ_LEFT_ARM</zone>
+	  <eFacing>TATTOO_LEFT</eFacing>
+	  <updateGroup>ARM_LEFT_SHORT_SLEEVE</updateGroup>
+	  <eFaction>TATTOO_MP_FM</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="5016"/>
+	  <cost value="696969"/>
+	  <textLabel>TAT_VW_015</textLabel>
+	  <collection>mpVinewood_overlays</collection>
+	  <preset>MP_Vinewood_Tat_015_M</preset>
+	  <zone>PDZ_TORSO</zone>
+	  <eFacing>TATTOO_BACK</eFacing>
+	  <updateGroup>BACK_FULL</updateGroup>
+	  <eFaction>TATTOO_MP_FM</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="5017"/>
+	  <cost value="696969"/>
+	  <textLabel>TAT_VW_016</textLabel>
+	  <collection>mpVinewood_overlays</collection>
+	  <preset>MP_Vinewood_Tat_016_M</preset>
+	  <zone>PDZ_TORSO</zone>
+	  <eFacing>TATTOO_FRONT</eFacing>
+	  <updateGroup>STOMACH_FULL</updateGroup>
+	  <eFaction>TATTOO_MP_FM</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="5018"/>
+	  <cost value="696969"/>
+	  <textLabel>TAT_VW_017</textLabel>
+	  <collection>mpVinewood_overlays</collection>
+	  <preset>MP_Vinewood_Tat_017_M</preset>
+	  <zone>PDZ_TORSO</zone>
+	  <eFacing>TATTOO_BACK</eFacing>
+	  <updateGroup>BACK_FULL</updateGroup>
+	  <eFaction>TATTOO_MP_FM</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="5019"/>
+	  <cost value="696969"/>
+	  <textLabel>TAT_VW_018</textLabel>
+	  <collection>mpVinewood_overlays</collection>
+	  <preset>MP_Vinewood_Tat_018_M</preset>
+	  <zone>PDZ_RIGHT_ARM</zone>
+	  <eFacing>TATTOO_RIGHT</eFacing>
+	  <updateGroup>ARM_RIGHT_FULL_SLEEVE</updateGroup>
+	  <eFaction>TATTOO_MP_FM</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="5020"/>
+	  <cost value="696969"/>
+	  <textLabel>TAT_VW_019</textLabel>
+	  <collection>mpVinewood_overlays</collection>
+	  <preset>MP_Vinewood_Tat_019_M</preset>
+	  <zone>PDZ_LEFT_ARM</zone>
+	  <eFacing>TATTOO_LEFT</eFacing>
+	  <updateGroup>ARM_LEFT_FULL_SLEEVE</updateGroup>
+	  <eFaction>TATTOO_MP_FM</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="5021"/>
+	  <cost value="696969"/>
+	  <textLabel>TAT_VW_020</textLabel>
+	  <collection>mpVinewood_overlays</collection>
+	  <preset>MP_Vinewood_Tat_020_M</preset>
+	  <zone>PDZ_RIGHT_LEG</zone>
+	  <eFacing>TATTOO_BACK</eFacing>
+	  <updateGroup>LEG_RIGHT_LOWER_BACK</updateGroup>
+	  <eFaction>TATTOO_MP_FM</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="5022"/>
+	  <cost value="696969"/>
+	  <textLabel>TAT_VW_021</textLabel>
+	  <collection>mpVinewood_overlays</collection>
+	  <preset>MP_Vinewood_Tat_021_M</preset>
+	  <zone>PDZ_TORSO</zone>
+	  <eFacing>TATTOO_BACK</eFacing>
+	  <updateGroup>BACK_FULL</updateGroup>
+	  <eFaction>TATTOO_MP_FM</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="5023"/>
+	  <cost value="696969"/>
+	  <textLabel>TAT_VW_022</textLabel>
+	  <collection>mpVinewood_overlays</collection>
+	  <preset>MP_Vinewood_Tat_022_M</preset>
+	  <zone>PDZ_TORSO</zone>
+	  <eFacing>TATTOO_FRONT</eFacing>
+	  <updateGroup>CHEST_LEFT</updateGroup>
+	  <eFaction>TATTOO_MP_FM</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="5024"/>
+	  <cost value="696969"/>
+	  <textLabel>TAT_VW_023</textLabel>
+	  <collection>mpVinewood_overlays</collection>
+	  <preset>MP_Vinewood_Tat_023_M</preset>
+	  <zone>PDZ_TORSO</zone>
+	  <eFacing>TATTOO_FRONT</eFacing>
+	  <updateGroup>CHEST_FULL</updateGroup>
+	  <eFaction>TATTOO_MP_FM</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="5025"/>
+	  <cost value="696969"/>
+	  <textLabel>TAT_VW_024</textLabel>
+	  <collection>mpVinewood_overlays</collection>
+	  <preset>MP_Vinewood_Tat_024_M</preset>
+	  <zone>PDZ_TORSO</zone>
+	  <eFacing>TATTOO_FRONT</eFacing>
+	  <updateGroup>STOMACH_FULL</updateGroup>
+	  <eFaction>TATTOO_MP_FM</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="5026"/>
+	  <cost value="696969"/>
+	  <textLabel>TAT_VW_025</textLabel>
+	  <collection>mpVinewood_overlays</collection>
+	  <preset>MP_Vinewood_Tat_025_M</preset>
+	  <zone>PDZ_RIGHT_ARM</zone>
+	  <eFacing>TATTOO_FRONT</eFacing>
+	  <updateGroup>ARM_RIGHT_LOWER_SLEEVE</updateGroup>
+	  <eFaction>TATTOO_MP_FM</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="5027"/>
+	  <cost value="696969"/>
+	  <textLabel>TAT_VW_026</textLabel>
+	  <collection>mpVinewood_overlays</collection>
+	  <preset>MP_Vinewood_Tat_026_M</preset>
+	  <zone>PDZ_LEFT_ARM</zone>
+	  <eFacing>TATTOO_LEFT</eFacing>
+	  <updateGroup>ARM_LEFT_FULL_SLEEVE</updateGroup>
+	  <eFaction>TATTOO_MP_FM</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="5028"/>
+	  <cost value="696969"/>
+	  <textLabel>TAT_VW_027</textLabel>
+	  <collection>mpVinewood_overlays</collection>
+	  <preset>MP_Vinewood_Tat_027_M</preset>
+	  <zone>PDZ_LEFT_LEG</zone>
+	  <eFacing>TATTOO_BACK</eFacing>
+	  <updateGroup>LEG_LEFT_LOWER_SLEEVE</updateGroup>
+	  <eFaction>TATTOO_MP_FM</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="5029"/>
+	  <cost value="696969"/>
+	  <textLabel>TAT_VW_028</textLabel>
+	  <collection>mpVinewood_overlays</collection>
+	  <preset>MP_Vinewood_Tat_028_M</preset>
+	  <zone>PDZ_RIGHT_ARM</zone>
+	  <eFacing>TATTOO_RIGHT</eFacing>
+	  <updateGroup>ARM_RIGHT_UPPER_SLEEVE</updateGroup>
+	  <eFaction>TATTOO_MP_FM</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="5030"/>
+	  <cost value="696969"/>
+	  <textLabel>TAT_VW_029</textLabel>
+	  <collection>mpVinewood_overlays</collection>
+	  <preset>MP_Vinewood_Tat_029_M</preset>
+	  <zone>PDZ_TORSO</zone>
+	  <eFacing>TATTOO_BACK</eFacing>
+	  <updateGroup>BACK_FULL</updateGroup>
+	  <eFaction>TATTOO_MP_FM</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="5031"/>
+	  <cost value="696969"/>
+	  <textLabel>TAT_VW_030</textLabel>
+	  <collection>mpVinewood_overlays</collection>
+	  <preset>MP_Vinewood_Tat_030_M</preset>
+	  <zone>PDZ_TORSO</zone>
+	  <eFacing>TATTOO_BACK</eFacing>
+	  <updateGroup>BACK_FULL</updateGroup>
+	  <eFaction>TATTOO_MP_FM</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="5032"/>
+	  <cost value="696969"/>
+	  <textLabel>TAT_VW_031</textLabel>
+	  <collection>mpVinewood_overlays</collection>
+	  <preset>MP_Vinewood_Tat_031_M</preset>
+	  <zone>PDZ_TORSO</zone>
+	  <eFacing>TATTOO_FRONT</eFacing>
+	  <updateGroup>STOMACH_FULL</updateGroup>
+	  <eFaction>TATTOO_MP_FM</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="5033"/>
+	  <cost value="696969"/>
+	  <textLabel>TAT_VW_032</textLabel>
+	  <collection>mpVinewood_overlays</collection>
+	  <preset>MP_Vinewood_Tat_032_M</preset>
+	  <zone>PDZ_TORSO</zone>
+	  <eFacing>TATTOO_BACK</eFacing>
+	  <updateGroup>BACK_FULL</updateGroup>
+	  <eFaction>TATTOO_MP_FM</eFaction>
+	  <lockHash />
+	</Item>
+	
+	<!-- Female Vinewood hair -->
+	<Item>
+	  <id value="5050"/>
+	  <cost value="0"/>
+	  <textLabel />
+	  <collection>mpVinewood_overlays</collection>
+	  <preset>MP_Vinewood_Hair_F_000_F</preset>
+	  <zone>PDZ_HEAD</zone>
+	  <eFacing>TATTOO_FRONT</eFacing>
+	  <updateGroup>hairOverlay</updateGroup>
+	  <eFaction>TATTOO_MP_FM_F</eFaction>
+	  <lockHash />
+	</Item>
+	
+	<!-- Female Vinewood tattoos -->
+	<Item>
+	  <id value="5051"/>
+	  <cost value="696969"/>
+	  <textLabel>TAT_VW_000</textLabel>
+	  <collection>mpVinewood_overlays</collection>
+	  <preset>MP_Vinewood_Tat_000_F</preset>
+	  <zone>PDZ_TORSO</zone>
+	  <eFacing>TATTOO_FRONT</eFacing>
+	  <updateGroup>CHEST_FULL</updateGroup>
+	  <eFaction>TATTOO_MP_FM_F</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="5052"/>
+	  <cost value="696969"/>
+	  <textLabel>TAT_VW_001</textLabel>
+	  <collection>mpVinewood_overlays</collection>
+	  <preset>MP_Vinewood_Tat_001_F</preset>
+	  <zone>PDZ_TORSO</zone>
+	  <eFacing>TATTOO_BACK</eFacing>
+	  <updateGroup>BACK_FULL_SHORT</updateGroup>
+	  <eFaction>TATTOO_MP_FM_F</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="5053"/>
+	  <cost value="696969"/>
+	  <textLabel>TAT_VW_002</textLabel>
+	  <collection>mpVinewood_overlays</collection>
+	  <preset>MP_Vinewood_Tat_002_F</preset>
+	  <zone>PDZ_LEFT_ARM</zone>
+	  <eFacing>TATTOO_LEFT</eFacing>
+	  <updateGroup>ARM_LEFT_FULL_SLEEVE</updateGroup>
+	  <eFaction>TATTOO_MP_FM_F</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="5054"/>
+	  <cost value="696969"/>
+	  <textLabel>TAT_VW_003</textLabel>
+	  <collection>mpVinewood_overlays</collection>
+	  <preset>MP_Vinewood_Tat_003_F</preset>
+	  <zone>PDZ_TORSO</zone>
+	  <eFacing>TATTOO_FRONT</eFacing>
+	  <updateGroup>CHEST_RIGHT</updateGroup>
+	  <eFaction>TATTOO_MP_FM_F</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="5055"/>
+	  <cost value="696969"/>
+	  <textLabel>TAT_VW_004</textLabel>
+	  <collection>mpVinewood_overlays</collection>
+	  <preset>MP_Vinewood_Tat_004_F</preset>
+	  <zone>PDZ_RIGHT_ARM</zone>
+	  <eFacing>TATTOO_RIGHT</eFacing>
+	  <updateGroup>ARM_RIGHT_FULL_SLEEVE</updateGroup>
+	  <eFaction>TATTOO_MP_FM_F</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="5056"/>
+	  <cost value="696969"/>
+	  <textLabel>TAT_VW_005</textLabel>
+	  <collection>mpVinewood_overlays</collection>
+	  <preset>MP_Vinewood_Tat_005_F</preset>
+	  <zone>PDZ_LEFT_ARM</zone>
+	  <eFacing>TATTOO_LEFT</eFacing>
+	  <updateGroup>ARM_LEFT_FULL_SLEEVE</updateGroup>
+	  <eFaction>TATTOO_MP_FM_F</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="5057"/>
+	  <cost value="696969"/>
+	  <textLabel>TAT_VW_006</textLabel>
+	  <collection>mpVinewood_overlays</collection>
+	  <preset>MP_Vinewood_Tat_006_F</preset>
+	  <zone>PDZ_TORSO</zone>
+	  <eFacing>TATTOO_BACK</eFacing>
+	  <updateGroup>BACK_FULL_SHORT</updateGroup>
+	  <eFaction>TATTOO_MP_FM_F</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="5058"/>
+	  <cost value="696969"/>
+	  <textLabel>TAT_VW_007</textLabel>
+	  <collection>mpVinewood_overlays</collection>
+	  <preset>MP_Vinewood_Tat_007_F</preset>
+	  <zone>PDZ_TORSO</zone>
+	  <eFacing>TATTOO_BACK</eFacing>
+	  <updateGroup>BACK_FULL_SHORT</updateGroup>
+	  <eFaction>TATTOO_MP_FM_F</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="5059"/>
+	  <cost value="696969"/>
+	  <textLabel>TAT_VW_008</textLabel>
+	  <collection>mpVinewood_overlays</collection>
+	  <preset>MP_Vinewood_Tat_008_F</preset>
+	  <zone>PDZ_TORSO</zone>
+	  <eFacing>TATTOO_BACK</eFacing>
+	  <updateGroup>BACK_FULL</updateGroup>
+	  <eFaction>TATTOO_MP_FM_F</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="5060"/>
+	  <cost value="696969"/>
+	  <textLabel>TAT_VW_009</textLabel>
+	  <collection>mpVinewood_overlays</collection>
+	  <preset>MP_Vinewood_Tat_009_F</preset>
+	  <zone>PDZ_TORSO</zone>
+	  <eFacing>TATTOO_BACK</eFacing>
+	  <updateGroup>BACK_FULL</updateGroup>
+	  <eFaction>TATTOO_MP_FM_F</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="5061"/>
+	  <cost value="696969"/>
+	  <textLabel>TAT_VW_010</textLabel>
+	  <collection>mpVinewood_overlays</collection>
+	  <preset>MP_Vinewood_Tat_010_F</preset>
+	  <zone>PDZ_TORSO</zone>
+	  <eFacing>TATTOO_BACK</eFacing>
+	  <updateGroup>BACK_FULL</updateGroup>
+	  <eFaction>TATTOO_MP_FM_F</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="5062"/>
+	  <cost value="696969"/>
+	  <textLabel>TAT_VW_011</textLabel>
+	  <collection>mpVinewood_overlays</collection>
+	  <preset>MP_Vinewood_Tat_011_F</preset>
+	  <zone>PDZ_TORSO</zone>
+	  <eFacing>TATTOO_BACK</eFacing>
+	  <updateGroup>BACK_FULL</updateGroup>
+	  <eFaction>TATTOO_MP_FM_F</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="5063"/>
+	  <cost value="696969"/>
+	  <textLabel>TAT_VW_012</textLabel>
+	  <collection>mpVinewood_overlays</collection>
+	  <preset>MP_Vinewood_Tat_012_F</preset>
+	  <zone>PDZ_TORSO</zone>
+	  <eFacing>TATTOO_FRONT</eFacing>
+	  <updateGroup>STOMACH_FULL</updateGroup>
+	  <eFaction>TATTOO_MP_FM_F</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="5064"/>
+	  <cost value="696969"/>
+	  <textLabel>TAT_VW_013</textLabel>
+	  <collection>mpVinewood_overlays</collection>
+	  <preset>MP_Vinewood_Tat_013_F</preset>
+	  <zone>PDZ_LEFT_LEG</zone>
+	  <eFacing>TATTOO_FRONT</eFacing>
+	  <updateGroup>LEG_LEFT_LOWER_FRONT</updateGroup>
+	  <eFaction>TATTOO_MP_FM_F</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="5065"/>
+	  <cost value="696969"/>
+	  <textLabel>TAT_VW_014</textLabel>
+	  <collection>mpVinewood_overlays</collection>
+	  <preset>MP_Vinewood_Tat_014_F</preset>
+	  <zone>PDZ_LEFT_ARM</zone>
+	  <eFacing>TATTOO_LEFT</eFacing>
+	  <updateGroup>ARM_LEFT_SHORT_SLEEVE</updateGroup>
+	  <eFaction>TATTOO_MP_FM_F</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="5066"/>
+	  <cost value="696969"/>
+	  <textLabel>TAT_VW_015</textLabel>
+	  <collection>mpVinewood_overlays</collection>
+	  <preset>MP_Vinewood_Tat_015_F</preset>
+	  <zone>PDZ_TORSO</zone>
+	  <eFacing>TATTOO_BACK</eFacing>
+	  <updateGroup>BACK_FULL</updateGroup>
+	  <eFaction>TATTOO_MP_FM_F</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="5067"/>
+	  <cost value="696969"/>
+	  <textLabel>TAT_VW_016</textLabel>
+	  <collection>mpVinewood_overlays</collection>
+	  <preset>MP_Vinewood_Tat_016_F</preset>
+	  <zone>PDZ_TORSO</zone>
+	  <eFacing>TATTOO_FRONT</eFacing>
+	  <updateGroup>STOMACH_FULL</updateGroup>
+	  <eFaction>TATTOO_MP_FM_F</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="5068"/>
+	  <cost value="696969"/>
+	  <textLabel>TAT_VW_017</textLabel>
+	  <collection>mpVinewood_overlays</collection>
+	  <preset>MP_Vinewood_Tat_017_F</preset>
+	  <zone>PDZ_TORSO</zone>
+	  <eFacing>TATTOO_BACK</eFacing>
+	  <updateGroup>BACK_FULL</updateGroup>
+	  <eFaction>TATTOO_MP_FM_F</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="5069"/>
+	  <cost value="696969"/>
+	  <textLabel>TAT_VW_018</textLabel>
+	  <collection>mpVinewood_overlays</collection>
+	  <preset>MP_Vinewood_Tat_018_F</preset>
+	  <zone>PDZ_RIGHT_ARM</zone>
+	  <eFacing>TATTOO_RIGHT</eFacing>
+	  <updateGroup>ARM_RIGHT_FULL_SLEEVE</updateGroup>
+	  <eFaction>TATTOO_MP_FM_F</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="5070"/>
+	  <cost value="696969"/>
+	  <textLabel>TAT_VW_019</textLabel>
+	  <collection>mpVinewood_overlays</collection>
+	  <preset>MP_Vinewood_Tat_019_F</preset>
+	  <zone>PDZ_LEFT_ARM</zone>
+	  <eFacing>TATTOO_LEFT</eFacing>
+	  <updateGroup>ARM_LEFT_FULL_SLEEVE</updateGroup>
+	  <eFaction>TATTOO_MP_FM_F</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="5071"/>
+	  <cost value="696969"/>
+	  <textLabel>TAT_VW_020</textLabel>
+	  <collection>mpVinewood_overlays</collection>
+	  <preset>MP_Vinewood_Tat_020_F</preset>
+	  <zone>PDZ_RIGHT_LEG</zone>
+	  <eFacing>TATTOO_BACK</eFacing>
+	  <updateGroup>LEG_RIGHT_LOWER_BACK</updateGroup>
+	  <eFaction>TATTOO_MP_FM_F</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="5072"/>
+	  <cost value="696969"/>
+	  <textLabel>TAT_VW_021</textLabel>
+	  <collection>mpVinewood_overlays</collection>
+	  <preset>MP_Vinewood_Tat_021_F</preset>
+	  <zone>PDZ_TORSO</zone>
+	  <eFacing>TATTOO_BACK</eFacing>
+	  <updateGroup>BACK_FULL</updateGroup>
+	  <eFaction>TATTOO_MP_FM_F</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="5073"/>
+	  <cost value="696969"/>
+	  <textLabel>TAT_VW_022</textLabel>
+	  <collection>mpVinewood_overlays</collection>
+	  <preset>MP_Vinewood_Tat_022_F</preset>
+	  <zone>PDZ_TORSO</zone>
+	  <eFacing>TATTOO_FRONT</eFacing>
+	  <updateGroup>CHEST_LEFT</updateGroup>
+	  <eFaction>TATTOO_MP_FM_F</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="5074"/>
+	  <cost value="696969"/>
+	  <textLabel>TAT_VW_023</textLabel>
+	  <collection>mpVinewood_overlays</collection>
+	  <preset>MP_Vinewood_Tat_023_F</preset>
+	  <zone>PDZ_TORSO</zone>
+	  <eFacing>TATTOO_FRONT</eFacing>
+	  <updateGroup>CHEST_FULL</updateGroup>
+	  <eFaction>TATTOO_MP_FM_F</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="5075"/>
+	  <cost value="696969"/>
+	  <textLabel>TAT_VW_024</textLabel>
+	  <collection>mpVinewood_overlays</collection>
+	  <preset>MP_Vinewood_Tat_024_F</preset>
+	  <zone>PDZ_TORSO</zone>
+	  <eFacing>TATTOO_FRONT</eFacing>
+	  <updateGroup>STOMACH_FULL</updateGroup>
+	  <eFaction>TATTOO_MP_FM_F</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="5076"/>
+	  <cost value="696969"/>
+	  <textLabel>TAT_VW_025</textLabel>
+	  <collection>mpVinewood_overlays</collection>
+	  <preset>MP_Vinewood_Tat_025_F</preset>
+	  <zone>PDZ_RIGHT_ARM</zone>
+	  <eFacing>TATTOO_FRONT</eFacing>
+	  <updateGroup>ARM_RIGHT_LOWER_SLEEVE</updateGroup>
+	  <eFaction>TATTOO_MP_FM_F</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="5077"/>
+	  <cost value="696969"/>
+	  <textLabel>TAT_VW_026</textLabel>
+	  <collection>mpVinewood_overlays</collection>
+	  <preset>MP_Vinewood_Tat_026_F</preset>
+	  <zone>PDZ_LEFT_ARM</zone>
+	  <eFacing>TATTOO_LEFT</eFacing>
+	  <updateGroup>ARM_LEFT_FULL_SLEEVE</updateGroup>
+	  <eFaction>TATTOO_MP_FM_F</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="5078"/>
+	  <cost value="696969"/>
+	  <textLabel>TAT_VW_027</textLabel>
+	  <collection>mpVinewood_overlays</collection>
+	  <preset>MP_Vinewood_Tat_027_F</preset>
+	  <zone>PDZ_LEFT_LEG</zone>
+	  <eFacing>TATTOO_BACK</eFacing>
+	  <updateGroup>LEG_LEFT_LOWER_SLEEVE</updateGroup>
+	  <eFaction>TATTOO_MP_FM_F</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="5079"/>
+	  <cost value="696969"/>
+	  <textLabel>TAT_VW_028</textLabel>
+	  <collection>mpVinewood_overlays</collection>
+	  <preset>MP_Vinewood_Tat_028_F</preset>
+	  <zone>PDZ_RIGHT_ARM</zone>
+	  <eFacing>TATTOO_RIGHT</eFacing>
+	  <updateGroup>ARM_RIGHT_UPPER_SLEEVE</updateGroup>
+	  <eFaction>TATTOO_MP_FM_F</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="5080"/>
+	  <cost value="696969"/>
+	  <textLabel>TAT_VW_029</textLabel>
+	  <collection>mpVinewood_overlays</collection>
+	  <preset>MP_Vinewood_Tat_029_F</preset>
+	  <zone>PDZ_TORSO</zone>
+	  <eFacing>TATTOO_BACK</eFacing>
+	  <updateGroup>BACK_FULL</updateGroup>
+	  <eFaction>TATTOO_MP_FM_F</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="5081"/>
+	  <cost value="696969"/>
+	  <textLabel>TAT_VW_030</textLabel>
+	  <collection>mpVinewood_overlays</collection>
+	  <preset>MP_Vinewood_Tat_030_F</preset>
+	  <zone>PDZ_TORSO</zone>
+	  <eFacing>TATTOO_BACK</eFacing>
+	  <updateGroup>BACK_FULL</updateGroup>
+	  <eFaction>TATTOO_MP_FM_F</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="5082"/>
+	  <cost value="696969"/>
+	  <textLabel>TAT_VW_031</textLabel>
+	  <collection>mpVinewood_overlays</collection>
+	  <preset>MP_Vinewood_Tat_031_F</preset>
+	  <zone>PDZ_TORSO</zone>
+	  <eFacing>TATTOO_FRONT</eFacing>
+	  <updateGroup>STOMACH_FULL</updateGroup>
+	  <eFaction>TATTOO_MP_FM_F</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="5083"/>
+	  <cost value="696969"/>
+	  <textLabel>TAT_VW_032</textLabel>
+	  <collection>mpVinewood_overlays</collection>
+	  <preset>MP_Vinewood_Tat_032_F</preset>
+	  <zone>PDZ_TORSO</zone>
+	  <eFacing>TATTOO_BACK</eFacing>
+	  <updateGroup>BACK_FULL</updateGroup>
+	  <eFaction>TATTOO_MP_FM_F</eFaction>
+	  <lockHash />
+	</Item>
+	
+	<!--Male T-shirt Overlays -->
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_VWM_DECL_0</textLabel>
+	  <collection>mpVinewood_overlays</collection>
+	  <preset>CasinoTop_M_0</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_VWM_DECL_1</textLabel>
+	  <collection>mpVinewood_overlays</collection>
+	  <preset>CasinoTop_M_1</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_VWM_DECL_2</textLabel>
+	  <collection>mpVinewood_overlays</collection>
+	  <preset>CasinoTop_M_2</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_VWM_DECL_3</textLabel>
+	  <collection>mpVinewood_overlays</collection>
+	  <preset>CasinoTop_M_3</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_VWM_DECL_4</textLabel>
+	  <collection>mpVinewood_overlays</collection>
+	  <preset>CasinoTop_M_4</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_VWM_DECL_5</textLabel>
+	  <collection>mpVinewood_overlays</collection>
+	  <preset>CasinoTop_M_5</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_VWM_DECL_6</textLabel>
+	  <collection>mpVinewood_overlays</collection>
+	  <preset>CasinoTop_M_6</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_VWM_DECL_7</textLabel>
+	  <collection>mpVinewood_overlays</collection>
+	  <preset>CasinoTop_M_7</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_VWM_DECL_8</textLabel>
+	  <collection>mpVinewood_overlays</collection>
+	  <preset>CasinoTop_M_8</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_VWM_DECL_9</textLabel>
+	  <collection>mpVinewood_overlays</collection>
+	  <preset>CasinoTop_M_9</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_VWM_DECL_10</textLabel>
+	  <collection>mpVinewood_overlays</collection>
+	  <preset>CasinoTop_M_10</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_VWM_DECL_11</textLabel>
+	  <collection>mpVinewood_overlays</collection>
+	  <preset>CasinoTop_M_11</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_VWM_DECL_12</textLabel>
+	  <collection>mpVinewood_overlays</collection>
+	  <preset>CasinoTop_M_12</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_VWM_DECL_13</textLabel>
+	  <collection>mpVinewood_overlays</collection>
+	  <preset>CasinoTop_M_13</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_VWM_DECL_14</textLabel>
+	  <collection>mpVinewood_overlays</collection>
+	  <preset>CasinoTop_M_14</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_VWM_DECL_15</textLabel>
+	  <collection>mpVinewood_overlays</collection>
+	  <preset>CasinoTop_M_15</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_VWM_DECL_16</textLabel>
+	  <collection>mpVinewood_overlays</collection>
+	  <preset>CasinoTop_M_16</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_VWM_DECL_17</textLabel>
+	  <collection>mpVinewood_overlays</collection>
+	  <preset>CasinoTop_M_17</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_VWM_DECL_18</textLabel>
+	  <collection>mpVinewood_overlays</collection>
+	  <preset>CasinoTop_M_18</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_VWM_DECL_19</textLabel>
+	  <collection>mpVinewood_overlays</collection>
+	  <preset>CasinoTop_M_19</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_VWM_DECL_20</textLabel>
+	  <collection>mpVinewood_overlays</collection>
+	  <preset>CasinoTop_M_20</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_VWM_DECL_21</textLabel>
+	  <collection>mpVinewood_overlays</collection>
+	  <preset>CasinoTop_M_21</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_VWM_DECL_22</textLabel>
+	  <collection>mpVinewood_overlays</collection>
+	  <preset>CasinoTop_M_22</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_VWM_DECL_23</textLabel>
+	  <collection>mpVinewood_overlays</collection>
+	  <preset>CasinoTop_M_23</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_VWM_DECL_24</textLabel>
+	  <collection>mpVinewood_overlays</collection>
+	  <preset>CasinoTop_M_24</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_VWM_DECL_25</textLabel>
+	  <collection>mpVinewood_overlays</collection>
+	  <preset>CasinoTop_M_25</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_VWM_DECL_26</textLabel>
+	  <collection>mpVinewood_overlays</collection>
+	  <preset>CasinoTop_M_26</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_VWM_DECL_27</textLabel>
+	  <collection>mpVinewood_overlays</collection>
+	  <preset>CasinoTop_M_27</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_VWM_DECL_28</textLabel>
+	  <collection>mpVinewood_overlays</collection>
+	  <preset>CasinoTop_M_28</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_VWM_DECL_29</textLabel>
+	  <collection>mpVinewood_overlays</collection>
+	  <preset>CasinoTop_M_29</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_VWM_DECL_30</textLabel>
+	  <collection>mpVinewood_overlays</collection>
+	  <preset>CasinoTop_M_30</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_VWM_DECL_31</textLabel>
+	  <collection>mpVinewood_overlays</collection>
+	  <preset>CasinoTop_M_31</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_VWM_DECL_32</textLabel>
+	  <collection>mpVinewood_overlays</collection>
+	  <preset>CasinoTop_M_32</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_VWM_DECL_33</textLabel>
+	  <collection>mpVinewood_overlays</collection>
+	  <preset>CasinoTop_M_33</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_VWM_DECL_34</textLabel>
+	  <collection>mpVinewood_overlays</collection>
+	  <preset>CasinoTop_M_34</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_VWM_DECL_35</textLabel>
+	  <collection>mpVinewood_overlays</collection>
+	  <preset>CasinoTop_M_35</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_VWM_DECL_36</textLabel>
+	  <collection>mpVinewood_overlays</collection>
+	  <preset>CasinoTop_M_36</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_VWM_DECL_37</textLabel>
+	  <collection>mpVinewood_overlays</collection>
+	  <preset>CasinoTop_M_37</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_VWM_DECL_38</textLabel>
+	  <collection>mpVinewood_overlays</collection>
+	  <preset>CasinoTop_M_38</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_VWM_DECL_39</textLabel>
+	  <collection>mpVinewood_overlays</collection>
+	  <preset>CasinoTop_M_39</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_VWM_DECL_40</textLabel>
+	  <collection>mpVinewood_overlays</collection>
+	  <preset>CasinoTop_M_40</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_VWM_DECL_41</textLabel>
+	  <collection>mpVinewood_overlays</collection>
+	  <preset>CasinoTop_M_41</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_VWM_DECL_42</textLabel>
+	  <collection>mpVinewood_overlays</collection>
+	  <preset>CasinoTop_M_42</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_VWM_DECL_43</textLabel>
+	  <collection>mpVinewood_overlays</collection>
+	  <preset>CasinoTop_M_43</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_VWM_DECL_44</textLabel>
+	  <collection>mpVinewood_overlays</collection>
+	  <preset>CasinoTop_M_44</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM</eFaction>
+	  <lockHash />
+	</Item>
+	
+	<!--Female T-shirt Overlays -->
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_VWF_DECL_0</textLabel>
+	  <collection>mpVinewood_overlays</collection>
+	  <preset>CasinoTop_F_0</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM_F</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_VWF_DECL_1</textLabel>
+	  <collection>mpVinewood_overlays</collection>
+	  <preset>CasinoTop_F_1</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM_F</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_VWF_DECL_2</textLabel>
+	  <collection>mpVinewood_overlays</collection>
+	  <preset>CasinoTop_F_2</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM_F</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_VWF_DECL_3</textLabel>
+	  <collection>mpVinewood_overlays</collection>
+	  <preset>CasinoTop_F_3</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM_F</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_VWF_DECL_4</textLabel>
+	  <collection>mpVinewood_overlays</collection>
+	  <preset>CasinoTop_F_4</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM_F</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_VWF_DECL_5</textLabel>
+	  <collection>mpVinewood_overlays</collection>
+	  <preset>CasinoTop_F_5</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM_F</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_VWF_DECL_6</textLabel>
+	  <collection>mpVinewood_overlays</collection>
+	  <preset>CasinoTop_F_6</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM_F</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_VWF_DECL_7</textLabel>
+	  <collection>mpVinewood_overlays</collection>
+	  <preset>CasinoTop_F_7</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM_F</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_VWF_DECL_8</textLabel>
+	  <collection>mpVinewood_overlays</collection>
+	  <preset>CasinoTop_F_8</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM_F</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_VWF_DECL_9</textLabel>
+	  <collection>mpVinewood_overlays</collection>
+	  <preset>CasinoTop_F_9</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM_F</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_VWF_DECL_10</textLabel>
+	  <collection>mpVinewood_overlays</collection>
+	  <preset>CasinoTop_F_10</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM_F</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_VWF_DECL_11</textLabel>
+	  <collection>mpVinewood_overlays</collection>
+	  <preset>CasinoTop_F_11</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM_F</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_VWF_DECL_12</textLabel>
+	  <collection>mpVinewood_overlays</collection>
+	  <preset>CasinoTop_F_12</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM_F</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_VWF_DECL_13</textLabel>
+	  <collection>mpVinewood_overlays</collection>
+	  <preset>CasinoTop_F_13</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM_F</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_VWF_DECL_14</textLabel>
+	  <collection>mpVinewood_overlays</collection>
+	  <preset>CasinoTop_F_14</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM_F</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_VWF_DECL_15</textLabel>
+	  <collection>mpVinewood_overlays</collection>
+	  <preset>CasinoTop_F_15</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM_F</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_VWF_DECL_16</textLabel>
+	  <collection>mpVinewood_overlays</collection>
+	  <preset>CasinoTop_F_16</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM_F</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_VWF_DECL_17</textLabel>
+	  <collection>mpVinewood_overlays</collection>
+	  <preset>CasinoTop_F_17</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM_F</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_VWF_DECL_18</textLabel>
+	  <collection>mpVinewood_overlays</collection>
+	  <preset>CasinoTop_F_18</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM_F</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_VWF_DECL_19</textLabel>
+	  <collection>mpVinewood_overlays</collection>
+	  <preset>CasinoTop_F_19</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM_F</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_VWF_DECL_20</textLabel>
+	  <collection>mpVinewood_overlays</collection>
+	  <preset>CasinoTop_F_20</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM_F</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_VWF_DECL_21</textLabel>
+	  <collection>mpVinewood_overlays</collection>
+	  <preset>CasinoTop_F_21</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM_F</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_VWF_DECL_22</textLabel>
+	  <collection>mpVinewood_overlays</collection>
+	  <preset>CasinoTop_F_22</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM_F</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_VWF_DECL_23</textLabel>
+	  <collection>mpVinewood_overlays</collection>
+	  <preset>CasinoTop_F_23</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM_F</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_VWF_DECL_24</textLabel>
+	  <collection>mpVinewood_overlays</collection>
+	  <preset>CasinoTop_F_24</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM_F</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_VWF_DECL_25</textLabel>
+	  <collection>mpVinewood_overlays</collection>
+	  <preset>CasinoTop_F_25</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM_F</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_VWF_DECL_26</textLabel>
+	  <collection>mpVinewood_overlays</collection>
+	  <preset>CasinoTop_F_26</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM_F</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_VWF_DECL_27</textLabel>
+	  <collection>mpVinewood_overlays</collection>
+	  <preset>CasinoTop_F_27</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM_F</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_VWF_DECL_28</textLabel>
+	  <collection>mpVinewood_overlays</collection>
+	  <preset>CasinoTop_F_28</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM_F</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_VWF_DECL_29</textLabel>
+	  <collection>mpVinewood_overlays</collection>
+	  <preset>CasinoTop_F_29</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM_F</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_VWF_DECL_30</textLabel>
+	  <collection>mpVinewood_overlays</collection>
+	  <preset>CasinoTop_F_30</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM_F</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_VWF_DECL_31</textLabel>
+	  <collection>mpVinewood_overlays</collection>
+	  <preset>CasinoTop_F_31</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM_F</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_VWF_DECL_32</textLabel>
+	  <collection>mpVinewood_overlays</collection>
+	  <preset>CasinoTop_F_32</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM_F</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_VWF_DECL_33</textLabel>
+	  <collection>mpVinewood_overlays</collection>
+	  <preset>CasinoTop_F_33</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM_F</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_VWF_DECL_34</textLabel>
+	  <collection>mpVinewood_overlays</collection>
+	  <preset>CasinoTop_F_34</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM_F</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_VWF_DECL_35</textLabel>
+	  <collection>mpVinewood_overlays</collection>
+	  <preset>CasinoTop_F_35</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM_F</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_VWF_DECL_36</textLabel>
+	  <collection>mpVinewood_overlays</collection>
+	  <preset>CasinoTop_F_36</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM_F</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_VWF_DECL_37</textLabel>
+	  <collection>mpVinewood_overlays</collection>
+	  <preset>CasinoTop_F_37</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM_F</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_VWF_DECL_38</textLabel>
+	  <collection>mpVinewood_overlays</collection>
+	  <preset>CasinoTop_F_38</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM_F</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_VWF_DECL_39</textLabel>
+	  <collection>mpVinewood_overlays</collection>
+	  <preset>CasinoTop_F_39</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM_F</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_VWF_DECL_40</textLabel>
+	  <collection>mpVinewood_overlays</collection>
+	  <preset>CasinoTop_F_40</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM_F</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_VWF_DECL_41</textLabel>
+	  <collection>mpVinewood_overlays</collection>
+	  <preset>CasinoTop_F_41</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM_F</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_VWF_DECL_42</textLabel>
+	  <collection>mpVinewood_overlays</collection>
+	  <preset>CasinoTop_F_42</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM_F</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_VWF_DECL_43</textLabel>
+	  <collection>mpVinewood_overlays</collection>
+	  <preset>CasinoTop_F_43</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM_F</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_VWF_DECL_44</textLabel>
+	  <collection>mpVinewood_overlays</collection>
+	  <preset>CasinoTop_F_44</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM_F</eFaction>
+	  <lockHash />
+	</Item>
+	
+  </TattooShopItems>
+</TattooShopItemArray>

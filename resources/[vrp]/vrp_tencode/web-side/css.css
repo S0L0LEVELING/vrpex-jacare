@@ -1,0 +1,32 @@
+#button-bar {
+	left: 50%;
+	bottom: 120px;
+	overflow: auto;
+	position: fixed;
+	transform: translateX(-50%);
+}
+
+#button-bar div {
+	background: #2d3343;
+	padding: 10px 15px;
+	color: #fff;
+	font-family: Arial;
+	font-size: 14px;
+	float: left;
+	letter-spacing: 3px;
+	transition: all 0.9s;
+}
+
+#button-bar div:hover {
+	background: #40475c;
+}
+
+#button-bar div:first-child {
+	border-top-left-radius: 3px;
+	border-bottom-left-radius: 3px;
+}
+
+#button-bar div:last-child {
+	border-top-right-radius: 3px;
+	border-bottom-right-radius: 3px;
+}

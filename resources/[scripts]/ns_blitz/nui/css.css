@@ -1,0 +1,167 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Nunito:wght@800&display=swap");
+
+hmtl,
+body {
+  /* background-color: black; */
+  user-select: none;
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  display: flex;
+  font-family: 'Nunito', sans-serif;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+
+.menu-blitz {
+  overflow-x: hidden;
+  background-color: #3f3f3f7c;
+  height: 350px;
+  width: 650px;
+  border-radius: 7px;
+  font-family: 'Nunito', sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+  /* overflow: auto; */
+  display: none; /* none */
+}
+
+.menu-blitz .titulo {
+  font-family: 'Nunito', sans-serif;
+  font-size: 30px;
+  width: 100%;
+  height: 0px;
+  text-align: center;
+  color: rgb(241, 239, 239);
+}
+
+.btns {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+  margin: 15px;
+}
+
+.clear-all {
+  font-family: 'Nunito', sans-serif;
+  height: 35px;
+  border-radius: 2px;
+  border: 0;
+  outline: none; /* none */
+  margin: 15px 23px 0 15px;
+  background-color: rgb(245, 60, 97);
+  color: white;
+  transition: all 0.5s;
+}
+
+.clear-all:hover {
+  background-color: rgb(189, 25, 58);
+  cursor: pointer;
+}
+
+.menu-blitz .item {
+  background-color: rgb(59, 59, 59);
+  height: 180px;
+  width: 180px;
+  margin: 15px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  transition: all 0.5s;
+}
+
+.menu-blitz .item:hover {
+  background-color: rgb(63, 63, 63);
+}
+
+.menu-blitz .item img {
+  height: 90px;
+  width: 90px;
+}
+
+.menu-blitz .item p {
+  color: white;
+  font-size: 13px;
+  margin: 5px;
+}
+
+.menu-blitz .item .buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu-blitz .item .buttons button {
+  margin: 15px 5px 0 5px;
+  padding: 10px;
+  border-radius: 2px;
+  border: 0;
+  outline: none;
+  color: white;
+  font-weight: 500;
+  transition: all 0.5s;
+  font-size: 11px;
+}
+
+.colocar {
+  font-family: 'Nunito', sans-serif;
+  background-color: rgb(59, 177, 79);
+}
+
+.colocar:hover {
+  background-color: rgb(32, 121, 47);
+  cursor: pointer;
+}
+
+.retirar {
+  font-family: 'Nunito', sans-serif;
+  background-color: crimson;
+}
+
+.retirar:hover {
+  background-color: rgb(189, 25, 58);
+  cursor: pointer;
+}
+
+.info {
+  width: 300px;
+  position: absolute;
+  bottom: 10px;
+  /* left */
+  padding: 5px;
+  color: rgb(219, 219, 219);
+  font-weight: 800;
+  border-radius: 5px;
+  font-size: 15px;
+  display: none; /* none */
+  left: 15%;
+}
+
+.info .obj {
+  color: rgb(74, 0, 170);
+}
+
+.info span {
+  color: rgb(255, 77, 77);
+}
+
+::-webkit-scrollbar {
+  width: 2px;
+  height: 5px;
+}
+ ::-webkit-scrollbar-thumb {
+  background: linear-gradient(84deg, #ebebeb 15%,#EBEBEB 89%);
+  /* border-radius: 10px; */
+}
+ ::-webkit-scrollbar-thumb:hover{
+  background: linear-gradient(13deg, #EBEBEB 14%,#ebebeb 64%);
+}
+ ::-webkit-scrollbar-track{
+  background: #63636310;
+  /* border-radius: 6px; */
+  box-shadow: inset 6px 10px 12px #b0b0b075;
+}
